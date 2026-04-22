@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Cadastro do Grupo</title>
+    <link rel="stylesheet" href="css/styles.css" />
+
+</head>
+
+<body>
+
+    <h2>Formulário de Cadastro</h2>
+    <form id="formCadastro">
+        <input type="text" id="nome" placeholder="Nome completo" /><br />
+        <input type="email" id="email" placeholder="E-mail" /><br />
+        <input type="text" id="cpf" placeholder="CPF" /><br />
+        <input type="text" id="telefone" placeholder="Telefone" /><br />
+        <input type="text" id="endereco" placeholder="Endereço" /><br />
+        <input type="text" id="cidade" placeholder="Cidade" /><br />
+        <input type="text" id="estado" placeholder="Estado" /><br />
+        <input type="date" id="nascimento" placeholder="Data de Nascimento" /><br />
+        <input type="text" id="curso" placeholder="Curso" /><br />
+
+        <label>
+            <input type="checkbox" id="termos" />
+            Aceito os termos e condições
+        </label><br /><br />
+
+        <button type="button" onclick="validarFormulario()">Salvar</button>
+    </form>
+
+    <div id="mensagemErro"></div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
